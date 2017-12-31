@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer", "DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer\DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer.csproj", "{6EB1B272-0219-4A73-BDE5-07FFC6B6369B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB1B272-0219-4A73-BDE5-07FFC6B6369B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB1B272-0219-4A73-BDE5-07FFC6B6369B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB1B272-0219-4A73-BDE5-07FFC6B6369B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB1B272-0219-4A73-BDE5-07FFC6B6369B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D99D6B-DC9F-453F-83EF-45F0693DB993}
+	EndGlobalSection
+EndGlobal
