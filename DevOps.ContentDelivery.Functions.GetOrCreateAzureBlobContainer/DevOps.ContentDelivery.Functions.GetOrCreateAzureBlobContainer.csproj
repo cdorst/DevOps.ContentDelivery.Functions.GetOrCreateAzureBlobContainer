@@ -10,7 +10,7 @@
     <Description>Helper for getting a reference to a newly created or existing Azure Blob Storage container</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

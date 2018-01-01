@@ -8,8 +8,14 @@ namespace DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer
         public static async Task EnsureCreated(CloudBlobContainer container)
         {
             await container.CreateIfNotExistsAsync();
-            await container.SetPermissionsAsync(
-                new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
+            await SetPublicAccessPermission(container);
+        }
+
+        private static async Task SetPublicAccessPermission(CloudBlobContainer container)
+        {
+            var permissions = await container.GetPermissionsAsync();
+            permissions.PublicAccess = BlobContainerPublicAccessType.Blob;
+            await container.SetPermissionsAsync(permissions);
         }
     }
 }
